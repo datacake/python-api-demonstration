@@ -31,7 +31,7 @@ for i in range(1, number_of_sensors+1):
         createApiDevices(input:{{
             workspace:"{workspace}",
             plan:"free",
-            planCode:"FreeSimmi",
+            planCode:"CODE",
             productKind:EXISTING,
             existingProduct:"{product}",
             devices:[
